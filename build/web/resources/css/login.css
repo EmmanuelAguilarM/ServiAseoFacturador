@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24/08/2024, 02:07:42 PM
+    Author     : aguilarje
+*/
+
+body {
+  height: 100%;
+  margin: 0px;
+}
+#formLogin {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  margin-bottom: 0px;
+  background-image: url('https://images.vexels.com/media/users/3/144435/raw/9c5af286a9bf9bb8ef5240f179601e04-fondo-abstracto-con-cuadrados-y-lineas-de-colores.jpg');
+}
+.contFormLogin {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#formLogin .footer button {
+  background: #35ecaa;
+  color: #fff;
+  text-shadow: none;
+  border: 1px solid #35ecaa;
+  box-shadow: none;
+  margin-top: 18px;
+}
+#formLogin .footer button:hover {
+  color: #35ecaa;
+  background: #fff;
+  border: 1px solid #35ecaa;
+}
+.contImgLogin img {
+  width: auto;
+  max-height: 100vh;
+}
+
+.form-control-feedback {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+  color: #000;
+}
+
+.form-group.has-feedback input {
+  padding-left: 30px !important;
+}
+.form-group.has-feedback input {
+  padding-left: 30px !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #8c8c8c;
+  box-shadow: none;
+  color: #8c8c8c;
+}
+.form-group.has-feedback input:focus {
+  border-bottom: 1px solid #1e52fe;
+  box-shadow: none;
+  color: #000;
+}
+.form-control-feedback:focus {
+    color: #1e52fe;
+}
+.tituloLogin {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
