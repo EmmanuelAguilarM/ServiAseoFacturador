@@ -129,16 +129,16 @@
             <p:tab title="Listado de Facturas">
                 <p:dataTable value="#{homeMB.facturas}" var="factura" rows="10" paginator="true">
                     <p:column headerText="ID">
-                        <h:outputText value="#{factura.id}"/>
+                        <h:outputText value="#{factura.facturaId}"/>
                     </p:column>
                     <p:column headerText="Cliente">
-                        <h:outputText value="#{factura.clienteNombre}"/>
+                        <h:outputText value="#{factura.clienteId}"/>
                     </p:column>
                     <p:column headerText="Fecha">
-                        <h:outputText value="#{factura.fecha}"/>
+                        <h:outputText value="#{factura.fechaEmision}"/>
                     </p:column>
                     <p:column headerText="Validar">
-                        <p:commandButton value="Validar" action="#{homeMB.validarFactura(factura)}" update="tabMenu"/>
+                        <p:commandButton value="Validar" action="#{homeMB.validarFactura(factura)}" update="@form"/>
                     </p:column>
                 </p:dataTable>
             </p:tab>
